@@ -11,7 +11,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
       with:
-         submodules: true
+        token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        submodules: true
     
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
