@@ -1,0 +1,2 @@
+omot-hugo
+reload
