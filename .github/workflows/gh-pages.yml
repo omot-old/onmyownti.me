@@ -38,9 +38,9 @@ jobs:
 
 
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2
+      uses: peaceiris/actions-gh-pages@v3
       env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        personal_token: ${{ secrets.ACTIONS_TOKEN }}
         external_repository: sommea/sommea.github.io
         PUBLISH_BRANCH: master
         PUBLISH_DIR: ./public
