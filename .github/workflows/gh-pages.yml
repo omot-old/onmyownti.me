@@ -3,7 +3,7 @@ name: hugo auto deploy to master
 on:
   push:
     branches:
-    - hugo
+    - master
 
 jobs:
   build-deploy:
@@ -43,3 +43,4 @@ jobs:
         external_repository: sommea/sommea.github.io
         PUBLISH_BRANCH: master
         PUBLISH_DIR: ./public
+        allow_empty_commit: true
