@@ -1,2 +1,1 @@
 omot-hugo
-reload
