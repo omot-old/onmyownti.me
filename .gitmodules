@@ -1,9 +1,9 @@
 [submodule "themes/omot-theme"]
 	path = themes/omot-theme
-	url = https://github.com/sommea/omot-theme
+	url = https://github.com/omot/omot-theme
 [submodule "themes/hugo-shortcode-gallery"]
 	path = themes/hugo-shortcode-gallery
 	url = https://github.com/mfg92/hugo-shortcode-gallery
 [submodule "content/photos"]
 	path = content/photos
-	url = https://github.com/sommea/omot-photos
+	url = https://github.com/omot/omot-photos
