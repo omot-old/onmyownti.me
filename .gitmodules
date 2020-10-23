@@ -7,3 +7,6 @@
 [submodule "content/photos"]
 	path = content/photos
 	url = https://github.com/omot/omot-photos
+[submodule "content/dialog"]
+	path = content/dialog
+	url = https://github.com/omot/omot-dialog
