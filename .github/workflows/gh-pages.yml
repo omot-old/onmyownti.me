@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        token: ${{ secrets.ACTIONS_TOKEN }}
+        token: ${{ secrets.SOMMEA_PAT }}
         submodules: true
     
     - name: Setup Hugo
@@ -40,7 +40,7 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        personal_token: ${{ secrets.PERSONAL_TOKEN }}
+        personal_token: ${{ secrets.SOMMEA_PAT }}
         external_repository: sommea/sommea.github.io
         PUBLISH_BRANCH: master
         PUBLISH_DIR: ./public
