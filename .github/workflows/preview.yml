@@ -1,9 +1,9 @@
-name: Deploy to onmyownti.me
+name: Deploy to preview.onmyownti.me
 
 on:
   push:
     branches:
-    - master
+    - preview
 
 jobs:
   build-deploy:
@@ -41,8 +41,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{ secrets.SOMMEA_PAT }}
-        external_repository: sommea/sommea.github.io
+        external_repository: sommea/preview
         PUBLISH_BRANCH: master
         PUBLISH_DIR: ./public
-        CNAME: onmyownti.me
         allow_empty_commit: true
