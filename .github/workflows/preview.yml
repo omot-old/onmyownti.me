@@ -1,4 +1,4 @@
-name: auto compile and deploy to ext repo
+name: Deploy to preview.onmyownti.me
 
 on:
   push:
