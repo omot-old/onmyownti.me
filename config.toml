@@ -16,6 +16,7 @@ timeout = 3600000
 
 [params]
     homepage = "main"
+    main_title = "stuff i do on my own time"
 
 [[params.mainMenu]]
 	link = "/dialog"
