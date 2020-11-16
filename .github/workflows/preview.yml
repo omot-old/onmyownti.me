@@ -41,7 +41,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{ secrets.SOMMEA_PAT }}
-        external_repository: sommea/preview.onmyowti.me
+        external_repository: sommea/preview.onmyownti.me
         PUBLISH_BRANCH: master
         PUBLISH_DIR: ./public
         CNAME: preview.onmyownti.me
